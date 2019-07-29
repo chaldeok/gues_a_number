@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Number Guesser</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300i,400,400i,700&display=swap&subset=cyrillic"
+				rel="stylesheet">
+</head>
+<body>
+<div class="container">
+	<h1>Угадай число!</h1>
+	<div id="game" class="game-box">
+		<p>угадай число от <span class="min-num"></span> до <span class="max-num"></span></p>
+		<input type="number" id="guess-input" class="game-box__input-line general-input-style"
+					 placeholder="введи число">
+		<input type="submit" value="подтвердить" id="guess-btn" class="game-box__input-btn general-input-style">
+		<p class="message"></p>
+	</div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

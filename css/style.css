@@ -1,0 +1,44 @@
+.container {
+    //border: 1px solid black;
+    width: 35vw;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.3em;
+}
+.game-box {
+    font-weight: 400;
+    font-size: 1em;
+}
+.general-input-style {
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 1px solid darkgrey;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: .8em;
+    box-shadow: none;
+    outline: none;
+    box-sizing: border-box;
+    height: 40px;
+}
+.game-box__input-line {
+    margin-right: 5px;
+}
+.game-box__input-btn {
+    color: gray;
+}
+.game-box__input-btn:hover {
+    background-color: paleturquoise;
+    border: 1px solid paleturquoise;
+}
+.game-box__input-btn:active {
+    background-color: darkturquoise;
+    border: 1px solid darkturquoise;
+    opacity: 0.8;
+    color: black;
+}
+.message {
+    color: gray;
+    margin: 25px 0;
+    font-size: .8em;
+}

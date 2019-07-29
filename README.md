@@ -3,6 +3,6 @@
 
 Используемые методы:
 
-Math.floor();
-Math.random();
+- Math.floor();
+- Math.random();
 
